@@ -23,7 +23,7 @@ main {
 
 a { 
 	text-decoration: none; 
-	font-size: 1.125rem; 
+	font-size: 1rem; 
 	font-weight: 600; 
 } 
 
@@ -63,9 +63,10 @@ a {
 } 
 
 .greetings { 
-	font-size: 2rem; 
+	font-size: 1.5rem; 
 	font-weight: 700; 
-	margin-bottom: 2rem; 
+	margin-bottom: 2rem;
+  margin-top: 2rem; 
 	color: white; 
 } 
 
