@@ -5,8 +5,18 @@ export const links = [
     image: "https://media.geeksforgeeks.org/wp-content/uploads/20230115205457/user1.png",
   },
   {
-    name: "SoundCloud",
-    link: "https://soundcloud.com/tokiochouetsu",
+    name: "Moon Reprise - Terminal 2 Recordings SoundCloud",
+    link: "https://soundcloud.com/terminal2recordings/sets/low-velocity-society-moon-reprise",
+    image: "https://media.geeksforgeeks.org/wp-content/uploads/20230115205457/user1.png",
+  },
+  {
+    name: "Holy Human Waters - Terminal 2 Recordings SoundCloud",
+    link: "https://soundcloud.com/terminal2recordings/sets/low-velocity-society-holy-human-waters",
+    image: "https://media.geeksforgeeks.org/wp-content/uploads/20230115205457/user1.png",
+  },
+  {
+    name: "A Different Way - Terminal 2 Recordings SoundCloud",
+    link: "https://soundcloud.com/terminal2recordings/sets/low-velocity-society-a-different-way",
     image: "https://media.geeksforgeeks.org/wp-content/uploads/20230115205457/user1.png",
   },
   {
