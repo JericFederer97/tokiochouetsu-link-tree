@@ -4,15 +4,17 @@
 * { 
 	padding: 0; 
 	margin: 0; 
-
-	transition: all 0.3s ease-in-out; 
+	transition: all 0.3s ease-in-out;
 } 
 
 body { 
 	font-family: "Montserrat", sans-serif; 
 	background: linear-gradient(#000000, #0f144d);
-  height: 100vh;
+  overscroll-behavior: none;
+  height: 9999;
   text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 } 
 
 main { 
@@ -97,7 +99,7 @@ a {
 	background: linear-gradient(90deg, 
 			rgba(241, 241, 241, 0.1) 30%, 
 			rgba(113, 113, 113, 0.3) 100%), 
-		#1342ae; 
+		#002326; 
 	color: white; 
 } 
 
@@ -105,7 +107,7 @@ a {
 	background: linear-gradient(90deg, 
 			rgba(241, 241, 241, 0.1) 30%, 
 			rgba(113, 113, 113, 0.3) 100%), 
-		#1342ae;
+		#002326;
 	color: white; 
 } 
 
@@ -113,7 +115,7 @@ a {
 	background: linear-gradient(90deg, 
 			rgba(241, 241, 241, 0.1) 30%, 
 			rgba(113, 113, 113, 0.3) 100%), 
-		#1342ae; 
+		#001a56; 
 	color: white; 
 } 
 
@@ -121,7 +123,7 @@ a {
 	background: linear-gradient(90deg, 
 			rgba(241, 241, 241, 0.1) 30%, 
 			rgba(113, 113, 113, 0.3) 100%), 
-		#1342ae; 
+		#001a56; 
 	color: white; 
 } 
 
@@ -129,7 +131,7 @@ a {
 	background: linear-gradient(90deg, 
 			rgba(241, 241, 241, 0.1) 30%, 
 			rgba(113, 113, 113, 0.3) 100%), 
-		#007e97; 
+		#001a56; 
 	color: white; 
 } 
 
@@ -137,7 +139,7 @@ a {
 	background: linear-gradient(90deg, 
 			rgba(241, 241, 241, 0.1) 30%, 
 			rgba(113, 113, 113, 0.3) 100%), 
-		#007e97; 
+		#001a56; 
 	color: white; 
 } 
 
@@ -145,7 +147,7 @@ a {
 	background: linear-gradient(90deg, 
 			rgba(241, 241, 241, 0.1) 30%, 
 			rgba(113, 113, 113, 0.3) 100%), 
-		#1342ae; 
+		#001a56; 
 	color: white; 
 } 
 
@@ -153,7 +155,7 @@ a {
 	background: linear-gradient(90deg, 
 			rgba(241, 241, 241, 0.1) 30%, 
 			rgba(113, 113, 113, 0.3) 100%), 
-		#1342ae; 
+		#001a56; 
 	color: white; 
 } 
 
@@ -170,7 +172,22 @@ a {
 .link:hover>* { 
 	transform: scale(1.1); 
 	filter: drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.2)); 
-} 
+}
+
+.names {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nameOne {
+}
+
+.nameTwo {
+  color: aqua;
+}
 
 @media (max-width: 600px) { 
 	body { 
@@ -192,5 +209,12 @@ a {
 
 	.link:hover { 
 		transform: scale(1.01); 
-	} 
+	}
+
+  .names {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
