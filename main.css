@@ -50,7 +50,7 @@ a {
 } 
 
 .link { 
-	height: 2.75rem; 
+	height: 4.5rem; 
 	width: 600px; 
 
 	display: flex; 
@@ -127,7 +127,7 @@ a {
 	background: linear-gradient(90deg, 
 			rgba(241, 241, 241, 0.1) 30%, 
 			rgba(113, 113, 113, 0.3) 100%), 
-		#1342ae; 
+		#007e97; 
 	color: white; 
 } 
 
@@ -135,7 +135,7 @@ a {
 	background: linear-gradient(90deg, 
 			rgba(241, 241, 241, 0.1) 30%, 
 			rgba(113, 113, 113, 0.3) 100%), 
-		#1342ae; 
+		#007e97; 
 	color: white; 
 } 
 
