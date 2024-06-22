@@ -229,36 +229,6 @@ img {
 	} 
 
 	.logo img { 
-		width: 200px; 
-	} 
-
-	.link span { 
-		width: 70%; 
-		text-align: center; 
-	} 
-
-	.link { 
-		width: 95vw; 
-	} 
-
-	.link:hover { 
-		transform: scale(1.01); 
-	}
-
-  .names {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-@media (max-width: 600px) { 
-	body { 
-		background-size: 100%; 
-	} 
-
-	.logo img { 
 		width: 200px;
 	} 
 
@@ -283,9 +253,7 @@ img {
 	}
 
   .names {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex: 1;
+    align-items: end;
   }
 }
