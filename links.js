@@ -13,7 +13,7 @@ export const links = [
   },
   {
     name: "Moon Reprise",
-    name2: "Terminal 2 Recordings - Spotify",
+    name2: "Terminal 2 Recordings",
     link: "https://open.spotify.com/album/4Zmi3tGJsJga65LtD9KbFi",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/2024_Spotify_Logo.svg/2880px-2024_Spotify_Logo.svg.png",
   },
@@ -37,13 +37,13 @@ export const links = [
   // },
   {
     name: "Holy Human Waters",
-    name2: "Terminal 2 Recordings - Spotify",
+    name2: "Terminal 2 Recordings",
     link: "https://open.spotify.com/album/4dKLMkpG6V02T6dMu6BMfN",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/2024_Spotify_Logo.svg/2880px-2024_Spotify_Logo.svg.png",
   },
   {
     name: "A Different Way",
-    name2: "Terminal 2 Recordings - Spotify",
+    name2: "Terminal 2 Recordings",
     link: "https://open.spotify.com/album/2ROEnEdiGg5HtLO521Bs7a",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/2024_Spotify_Logo.svg/2880px-2024_Spotify_Logo.svg.png",
   },
