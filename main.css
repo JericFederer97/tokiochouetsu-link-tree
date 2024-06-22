@@ -47,24 +47,6 @@ a {
 	margin-bottom: 2rem; 
 } 
 
-.links { 
-	display: flex; 
-	flex-direction: column; 
-} 
-
-.link { 
-	height: 4.5rem; 
-	width: 600px; 
-
-	display: flex; 
-	align-items: center; 
-	justify-content: center; 
-	color: #000; 
-
-	margin: 0.5rem 0; 
-	border-radius: 15px; 
-} 
-
 .greetings { 
 	font-size: 1.5rem; 
 	font-weight: 700; 
@@ -80,14 +62,55 @@ a {
 	color: white; 
 } 
 
-.link span { 
-	width: 80%; 
-	text-align: center; 
+.links { 
+	display: flex; 
+	flex-direction: column;
 } 
 
+.link { 
+	height: 4.5rem;
+	width: 600px;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	color: #000; 
+
+	margin: 0.5rem 0; 
+	border-radius: 15px; 
+} 
+
+.names {
+  /* width: 100vw; */
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  margin-right: 1rem;
+}
+
+.image {
+	flex: 1;
+  /* margin-right: -60px; */
+  /* background-color: so; */
+}
+
+img {
+  /* height: 6rem;  */
+	/* aspect-ratio: 1; */
+  height: 3rem;
+  width: 3rem;
+}
+
+.names { 
+	width: 80%; 
+	text-align: center; 
+}
+
 .link img { 
-	height: 2rem; 
-	aspect-ratio: 1; 
+  height: 2rem;
+  width: 8rem;
 } 
 
 .linkIcon { 
@@ -99,17 +122,23 @@ a {
 	background: linear-gradient(90deg, 
 			rgba(241, 241, 241, 0.1) 30%, 
 			rgba(113, 113, 113, 0.3) 100%), 
-		#002326; 
+		#335258;
 	color: white; 
-} 
+}
 
 .link:nth-child(2) { 
 	background: linear-gradient(90deg, 
 			rgba(241, 241, 241, 0.1) 30%, 
 			rgba(113, 113, 113, 0.3) 100%), 
-		#002326;
+		#335258;
 	color: white; 
-} 
+}
+
+.link:nth-child(1) img,
+.link:nth-child(2) img{ 
+  height: 10rem;
+  width: 10rem;
+}
 
 .link:nth-child(3) { 
 	background: linear-gradient(90deg, 
@@ -141,7 +170,12 @@ a {
 			rgba(113, 113, 113, 0.3) 100%), 
 		#001a56; 
 	color: white; 
-} 
+}
+
+.link:nth-child(6) img{ 
+  height: 3rem;
+  width: 3rem;
+}
 
 .link:nth-child(7) { 
 	background: linear-gradient(90deg, 
@@ -180,14 +214,6 @@ a {
 .link:hover>* { 
 	transform: scale(1.1); 
 	filter: drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.2)); 
-}
-
-.names {
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
 }
 
 .nameOne {
